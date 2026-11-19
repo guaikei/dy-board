@@ -6,6 +6,11 @@ name: dy-board
 description: 抖音作品榜单数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音作品榜单｜爆款排行·高赞清单·热门博主·数据对比"
+display_name_en: "Douyin Rankings"
+description_zh: "抖音作品榜单数据源（只读）：关键词搜索视频与图文（综合/最多点赞/最新排序，1 天/7 天/半年、时长、内容类型筛选）、用户搜索找对标账号与达人、博主作品与粉丝互动数据、单条作品详情、视频图文评论抓取、实时热榜（约 50 条含排名与热度值）；支持按剧本做需求挖掘与公域获客（search→comment），全部以结构化 JSON 输出供 AI 直接排序对比。不登录、不发布、不点赞、不评论。按量单次最多 1 万条；包月视频/用户搜索与作品最多 30、评论最多 50。适用于爆款排行、高赞作品清单、热门博主盘点、同类内容数据对比、竞品截流与评论舆情。"
+description_en: "Read-only Douyin ranking data source: keyword video/image-text search with relevance/most-liked/latest sorting and filters (time window, duration, content type), user search for benchmark accounts and creators, creator video and fan-engagement data, single-video details, video/note comment mining, and a real-time hot list (~50 entries with rank and heat score). Supports demand-mining and customer-acquisition scripts (search to comment). All results are structured JSON ready for direct AI comparison. No login, publishing, liking, or commenting. Pay-per-use runs cap at 10,000 items; monthly plans cap video/user search and creator videos at 30 and comments at 50. Ideal for hit rankings, top-liked lists, popular creator reviews, content benchmarking, competitor interception, and comment sentiment."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
